@@ -1,0 +1,84 @@
+.column {
+    width: 20%;
+    float: left;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container>nav {
+    line-height: 50px;
+    background-color: rgb(204, 255, 0);
+    text-align: center;
+}
+
+.container>nav>div>input {
+    font-size: 22px;
+}
+
+.san-pham {
+    border-radius: 10px;
+    border: 1px solid violet;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.column>:hover {
+    border: 3px solid rgb(204, 255, 0);
+}
+
+.ten {
+    font-size: larger;
+    font-variant: small-caps;
+    color: blueviolet;
+}
+
+img {
+    max-width: 95%;
+}
+
+.gia {
+    color: aqua;
+    font-weight: bold;
+    font-size: larger;
+}
+
+del {
+    color: gray;
+}
+
+.san-pham>div>a>input {
+    background-color: rgba(204, 255, 0, 0.289);
+}
+
+.san-pham>div>input {
+    background-color: rgba(204, 255, 0, 0.289);
+}
+.ti-menu
+{
+    font-size: 32px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 5px;
+    display: none;
+}
+/* mobile */
+@media only screen and (max-width:739px) {
+    .column 
+    {
+        margin: auto;
+        width: 80%;
+        float: none;
+    }
+    .ti-menu
+    {
+        display: block;
+    }
+    .btn
+    {
+        display: none;
+    }
+}

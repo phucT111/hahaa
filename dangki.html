@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form {
+            width: 400px;
+            margin: auto;
+            padding: 10px 40px;
+            border: 1px solid black;
+            background: rgba(255, 166, 0, 0.574);
+            font-size: 20px;
+        }
+        form>a>input {
+            position: relative;
+            left: 33%;
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <label>User Name</label>
+        <br>
+        <input name="id" type="text" placeholder="xin moi nhap" >
+        <br>
+        <label>Password</label>
+        <br>
+        <input name="pw" type="password" placeholder="xin moi nhap" >
+        <br>
+        <label>
+            <input name="re" type="checkbox" >Remem ber?
+        </label>
+        <br>
+        <input type="date">
+        <br>
+        <select >
+            <option> Việt Nam </option>
+            <option> Trung Quốc </option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Giới Tính</legend>
+            <label > <input type="radio" name="o">Nam</label>
+            <label > <input type="radio" name="o">Nữ</label>
+        </fieldset>
+        <br>
+        <label>Ghi Chú</label>
+        <br>
+        <textarea cols="40" rows="5"></textarea>
+        <br>
+        <a href="index.html"><input type="button" value="Đăng Nhập"></a>
+        
+    </form>
+</body>
+</html>

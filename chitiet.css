@@ -1,0 +1,59 @@
+.all
+{
+    width: 100%;
+    margin: auto;
+}
+.details
+{
+    height: 450px;
+    width: 50%;
+    float: right;
+    background-color: rgba(155, 245, 139, 0.574);
+    text-align: center;
+}
+.details>a>input
+{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: coral;
+}
+.details>h2>em
+{
+    color: rgb(0, 85, 255);
+}
+.img
+{
+    text-align: center;
+    height: 450px;
+    width: 50%;
+    background-color: rgba(255, 166, 0, 0.574);
+    float: left;
+    display: block;
+}
+.all>nav
+{
+    line-height: 50px;
+    background-color: rgb(204, 255, 0);
+    text-align: center;
+}
+.all>nav>a>input
+{
+    font-size: 22px;
+}
+@media only screen and (max-width:739px)
+{
+
+    .img
+    {
+        width: 80%;
+        float: none;
+        margin: auto;
+    }
+    .details
+    {
+        float: none;
+        width: 80%;
+        margin: auto;
+    }
+    
+}
